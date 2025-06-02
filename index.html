@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Coleção de jogos em JavaScript - Quiz, Jogo da Memória, Jogo da Velha e mais!">
+  <title>Portal de Jogos</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  <header>
+    <h1>Portal de Jogos Unicesumar</h1>
+    <nav>
+      <a href="#">Início</a>
+      <a href="quiz.html">Quiz</a>
+      <a href="jogos/memoria/index.html">Jogo da Memória</a>
+      <a href="velha.html">Jogo da Velha</a>
+      <a href="labirinto.html">Labirinto</a>
+      <a href="homem-aranha.html">Homem Aranha</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="card" onclick="irPara('jogos/quiz.html')">
+      <h2>Quiz Nerd</h2>
+    </div>
+    <div class="card" onclick="irPara('jogos\memoria\index.html')">
+      <h2>Jogo da Memória</h2>
+    </div>
+    <div class="card" onclick="irPara('jogos/velha.html')">
+      <h2>Jogo da Velha</h2>
+    </div>
+    <div class="card" onclick="irPara('jogos/labirinto.html')">
+      <h2>Labirinto</h2>
+    </div>
+    <div class="card" onclick="irPara('jogos/flappy.html')">
+      <h2>Homem Aranha</h2>
+    </div>
+  </div>
+
+  <footer class="footer">
+  <div class="container">
+    <section class="social-media">
+      <a href="https://www.linkedin.com/in/alanbrreis/" class="btn linkedin" aria-label="LinkedIn" target="_blank" rel="noopener">
+        <!-- Ícone LinkedIn SVG -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="20px" height="20px">
+          <path d="M4.98 3.5C4.98 4.88 3.86 6 2.48 6 1.1 6 0 4.88 0 3.5S1.1 1 2.48 1c1.38 0 2.5 1.12 2.5 2.5zM.5 8h4v12h-4V8zM8 8h3.5v1.72h.05c.49-.93 1.7-1.9 3.5-1.9 3.74 0 4.43 2.46 4.43 5.66V20H15v-5.5c0-1.32 0-3-1.82-3-1.82 0-2.1 1.42-2.1 2.89V20H8V8z"/>
+        </svg>
+      </a>
+      <a href="https://github.com/AlanBReis" class="btn github" aria-label="GitHub" target="_blank" rel="noopener">
+        <!-- Ícone GitHub SVG -->
+        <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" width="20px" height="20px">
+          <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.21 11.38.6.11.82-.26.82-.58 0-.29-.01-1.04-.02-2.05-3.34.73-4.04-1.61-4.04-1.61-.55-1.4-1.34-1.77-1.34-1.77-1.1-.75.08-.74.08-.74 1.22.09 1.86 1.26 1.86 1.26 1.08 1.86 2.83 1.32 3.52 1.01.11-.78.42-1.32.76-1.63-2.67-.3-5.47-1.34-5.47-5.97 0-1.32.47-2.4 1.24-3.24-.12-.3-.54-1.52.12-3.17 0 0 1.01-.32 3.31 1.23.96-.27 1.99-.41 3.01-.41s2.05.14 3.01.41c2.29-1.56 3.3-1.23 3.3-1.23.67 1.65.25 2.87.13 3.17.77.84 1.24 1.92 1.24 3.24 0 4.64-2.8 5.67-5.48 5.96.43.37.82 1.1.82 2.22 0 1.6-.01 2.88-.01 3.27 0 .32.21.7.82.58C20.56 21.8 24 17.3 24 12c0-6.63-5.37-12-12-12z"/>
+        </svg>
+      </a>
+      <a href="https://www.instagram.com/alanzit0x/" class="btn instagram" aria-label="Instagram" target="_blank" rel="noopener">
+        <!-- Ícone Instagram SVG -->
+        <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" width="20px" height="20px">
+          <path d="M7 2C4.8 2 3 3.8 3 6v12c0 2.2 1.8 4 4 4h10c2.2 0 4-1.8 4-4V6c0-2.2-1.8-4-4-4H7zm10 2c.55 0 1 .45 1 1v1c0 .55-.45 1-1 1h-1c-.55 0-1-.45-1-1V5c0-.55.45-1 1-1h1zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6z"/>
+        </svg>
+      </a>
+      <a href="https://wa.me/5544920024399/?text=Oi%20Tudo%20bem%20?" class="btn whatsapp" aria-label="WhatsApp" target="_blank" rel="noopener">
+        <!-- Ícone WhatsApp SVG -->
+        <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" width="20px" height="20px">
+          <path d="M20.52 3.48a11.55 11.55 0 0 0-16.32 16.3l-1.2 4.4 4.52-1.18a11.52 11.52 0 0 0 13.05-19.53zm-8.53 14.35c-1.44 0-2.87-.6-3.91-1.65l-.28-.27-2.33.61.62-2.27-.25-.29a6.49 6.49 0 0 1-.99-3.59c0-3.59 2.92-6.5 6.52-6.5 1.75 0 3.39.72 4.56 1.99a6.437 6.437 0 0 1 1.88 4.56 6.53 6.53 0 0 1-6.51 6.44z"/>
+        </svg>
+      </a>
+    </section>
+  </div>
+  <div class="copyright">
+    © 2025 Copyright Alan Borges dos Reis. Todos os direitos reservados.
+  </div>
+  </footer>
+
+
+
+  <script src="main.js"></script>
+
+</body>
+</html>
