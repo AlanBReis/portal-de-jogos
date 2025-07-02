@@ -40,6 +40,11 @@ nav a:hover {
     color: #000;
 }
 
+links {
+  text-align: left;
+  font-size: 90px;
+}
+
 .container {
     max-width: 1000px;
     margin: 40px auto;
